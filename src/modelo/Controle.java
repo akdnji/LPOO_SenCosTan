@@ -19,6 +19,10 @@ public class Controle extends absPropriedades
             absPropriedades calcular = new Calcular(validacao.n1);
             this.resposta = calcular.toString();
         }
+        else if (validacao.mensagem.equals("Maior que 360º"))
+        {
+            JOptionPane.showMessageDialog(null, validacao.mensagem);
+        }
         else
         {
             JOptionPane.showMessageDialog(null, validacao.mensagem);

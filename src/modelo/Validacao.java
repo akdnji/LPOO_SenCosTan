@@ -15,6 +15,10 @@ public class Validacao extends absPropriedades
         try
         {
             this.n1 = Double.parseDouble(this.numero);
+            if (this.n1 > 360.0)
+            {
+                this.mensagem = "Maior que 360º";
+            }
         }
         catch (NumberFormatException e)
         {

@@ -41,6 +41,7 @@ public class frmPrincipal extends javax.swing.JDialog
         lblResposta = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setResizable(false);
 
         lblNumero.setText("Insira um ângulo de até 360º");
 
@@ -83,6 +84,7 @@ public class frmPrincipal extends javax.swing.JDialog
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnCalcularActionPerformed(java.awt.event.ActionEvent evt)//GEN-FIRST:event_btnCalcularActionPerformed
